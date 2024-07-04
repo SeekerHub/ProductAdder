@@ -1,0 +1,138 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  /* display: flex; */
+}
+ 
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+ 
+.container {
+  width: 100%;
+  padding: 20px;
+  /* border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  background-color: #fff;
+  border-radius: 8px;
+}
+ 
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 13px;
+}
+ 
+.product-row {
+  margin-bottom: 10px;
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  /* background-color: #fff; */
+}
+.variants{
+  .product-main{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 97%;
+  }
+}
+.product-main {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-main span {
+  margin-right: 10px;
+}
+ 
+.product-main input[type="text"]{
+  width: 70%;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.product-main input[type="number"], .product-main select {
+  width: 20%;
+  margin-right: 10px;
+  /* width:   ; */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+.product-main button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.product-main .delete-btn {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  color: #bcbcbc;
+  cursor: pointer;
+  font-size: 18px;
+}
+ 
+.product-main .delete-btn:hover {
+  color: #c9302c;
+}
+ 
+.variants {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+ 
+.variant-row {
+  margin-bottom: 5px;
+}
+.text-variant{
+  color: #3b7bef;
+  font-size: small;
+  text-decoration: underline;
+}
+.input-sub{
+  border-radius: 11px !important;
+  margin-bottom: 8px !important;
+  box-shadow: 1px 1px 1px rgb(175, 178, 179) !important;
+}
+.variant-div{
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 24px;
+}
+.add-product-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #218838;
+  border: 3px solid green;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.add-product-btn:hover {
+  background-color: #e5e5e5;
+}
+ 
+.header-info{
+  display: flex;
+  justify-content: space-between;
+  width: 63%;
+  margin-left: 33px;
+  font-weight: 600;
+  color: grey;
+}

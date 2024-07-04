@@ -1,0 +1,172 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-adder{
+margin-left: 9px;
+}
+.container-list{
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.container-list::-webkit-scrollbar {
+  display: none;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  /* border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 13px;
+}
+.drag-area{
+  width: 10px;
+}
+.product-row {
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 10px;
+  padding: 10px;
+  /* border: 1px solid #ddd; 
+  border-radius: 4px; */
+  /* background-color: #fff;  */
+}
+.variants{
+  .product-main{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 97%;
+  }
+}
+.product-main {
+  display: flex;
+  align-items: center;
+  width: 550px;
+}
+
+.product-main span {
+  margin-right: 10px;
+}
+
+.product-main input[type="text"]{
+  width: 70%;
+  margin-right: 10px;
+
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.product-main input[type="number"], .product-main select {
+  width: 20%;
+
+  height: 25px;
+  margin-right: 10px;
+  /* width:   ; */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-main button {
+  margin-right: 10px;
+  /* width: 66%; */
+
+  height: 35px;
+  background-color: #008060;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.icon-input{
+  margin-right: 25px;
+  /* background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right; */
+  background-size: 20px;
+}
+.product-main .delete-btn {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  color: #bcbcbc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.product-main .delete-btn:hover {
+  color: #c9302c;
+}
+
+.variants {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.variant-row {
+  margin-bottom: 5px;
+}
+.text-variant{
+  color: #006EFF;
+  font-size: small;
+  text-decoration: underline;
+}
+.input-sub{
+  border-radius: 11px !important;
+  margin-bottom: 8px !important;
+  box-shadow: 1px 1px 1px rgb(175, 178, 179) !important;
+}
+.variant-div{
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 24px;
+}
+.add-product-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #008060;
+  border: 3px solid 008060;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* .add-product-btn:hover {
+  background-color: #e5e5e5;
+} */
+
+.header-info{
+  display: flex;
+  justify-content: space-between;
+  width: 67%;
+  margin-left: 33px;
+  font-weight: 600;
+  color: grey;
+}
+
+.drag-btn{
+  /* width: 10px; */
+  /* background-color: #bcbcbc; */
+}
